@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(168, 200, 223);
+    color: white;
+    padding: 10px 0 10px 55px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+}
+
+nav {
+    background-color: rgb(67, 149, 212);
+    padding: 10px 0px 10px 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+ul, a{
+    color: white;
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+.navbar:hover{
+    list-style: none;
+    padding: 10px 0 10px 60px;
+    background-color: rgb(0, 0, 0)
+}
+
+#showcase{
+    min-height: 400px;
+    text-align: center;
+    color: rgb(232, 243, 75);
+    background: url("alam.jpg") no-repeat 0 -400px;
+}
+#showcase h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(168, 200, 223);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}

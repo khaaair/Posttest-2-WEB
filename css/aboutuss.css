@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(168, 200, 223);
+    color: white;
+    padding: 10px 0 10px 55px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.content{
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+}
+.content h2{
+    padding: 20px 20px 20px 20px;
+    text-align: justify;
+}
+
+nav {
+    background-color: rgb(67, 149, 212);
+    padding: 10px 0 10px 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color:white;
+}
+
+form{
+    background-color: aliceblue;
+    padding: 20px 0 20px 20px;
+    margin: 40px;
+}
+
+ul, a{
+    color: rgb(255, 255, 255);
+    padding: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(168, 200, 223);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}

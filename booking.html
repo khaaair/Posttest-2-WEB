@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- <meta name="viewport" content="width=device-width, initial-scale" /> -->
+        <link rel="stylesheet" href="booking.css">
+        <title>Bookingsite</title>
+    </head>
+    <body>
+        <header>
+            <h1>Niagara Travels</h1>
+        </header>
+
+        <div class="wrapper">
+
+        <nav>
+                <a href="homepage.html">Homepage</a>
+                <a href="booking.html">Booking</a>
+                <a href="transports.html">Transports</a>
+                <a href="aboutuss.html">About Us</a>
+        </nav>
+        <div class="center">
+        </div>
+
+        <form>
+            <label for="text">Name</label><br>
+            <input type="text" id="nm" name="nm"><br>
+            <br>
+            <label for="pesan">Experience</label><br>
+            <textarea rows="5" cols="40" id="experiences" name="pesan"></textarea><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="eml" name="eml"><br>
+            <br>
+            <label for="Gender">Gender</label><br>
+            <select id="Gender" name="Gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <br><br>
+            <label for="radio">Transportasi</label><br>
+            <input type="radio" id="wedding" name="radio" value="Ship">Ship<br>
+            <input type="radio" name="radio" value="Train">Train<br>
+            <input type="radio"  name="radio" value="Airplane">Airplane<br>
+            <br>
+            <label for="checkbox">Country</label><br>
+            <input type="checkbox" name="checkbox" id="checkbox" value="America">America<br>
+            <input type="checkbox" name="checkbox" id="checkbox" value="Africa">Africa<br>
+            <br>
+            <!-- <button>Book</button> -->
+            <a class="btn" onclick="simpan()" href="form.html">Submit</a>
+        </form>
+        <footer>
+            <p id="kontak">Copyright</p>
+            <p>2023 Niagara Travels.</p>
+        </footer>
+    </body>
+    <script src="js/booking.js"></script>
+</html>
